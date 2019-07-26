@@ -1,0 +1,96 @@
+body{
+	background-color: white;
+	text-align: center;
+	margin:20px 50px;
+	/*background-color:lightgreen;*/
+}
+
+h1 {
+	text-transform:uppercase;
+	/**michel.alencarmorandi@gmail.com/
+	/*text-transform:lowercase;*/
+	text-align: center;
+	margin-top: 40px;
+	font-family: Sans-serif;
+	color: darkblue;
+}
+
+h2 {
+
+	color: red;
+	font-family:Helvetica,arial,Sans-serif;
+}
+div>h2{
+	color:purple;
+}
+
+div{
+	border: 1px solid grey;
+	position: relative;
+	float: left;
+	top: 31%;
+	background-color:white;
+	margin-right:20px;
+	bottom: 40px;
+	padding:11px;
+	/* position: absolute; */
+}
+
+#
+
+.colunas{
+
+	width:25%;
+	text-align:center;
+}
+
+#divyellow > h2 {
+
+	color:yellow;
+	text-shadow: 1px 1px 1px #000; /*#000 (black)*/
+
+}
+
+#divgreen {
+
+	box-shadow: 1px 1px 1px black;
+	border-radius:10px;
+	text-shadow: 1px 1px 1px #000; /*#000 (black)*/
+	/*left:20px*/
+
+}
+
+#divgreen > h2 {
+
+	color:green;
+	text-shadow: 1px 1px 1px #000; /*#000 (black)*/
+
+}
+
+#divgreen > p {
+
+	color:blue;
+	text-shadow: 1px 1px 1px #000; /*#000 (black)*/
+
+}
+
+#divyellow > p {
+
+	color:red;
+	
+}
+
+#divyellow{
+
+	box-shadow: 1px 1px 1px black;
+}
+
+div > p{
+
+	text-align:center ;
+}
+p {
+	margin-top: 20px;
+	font-family:Sans-serif;
+	color:black;
+}
